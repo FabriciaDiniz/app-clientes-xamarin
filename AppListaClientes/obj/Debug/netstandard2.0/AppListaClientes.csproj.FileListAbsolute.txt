@@ -1,0 +1,13 @@
+C:\Users\usuario\source\repos\AppListaClientes\AppListaClientes\bin\Debug\netstandard2.0\AppListaClientes.deps.json
+C:\Users\usuario\source\repos\AppListaClientes\AppListaClientes\bin\Debug\netstandard2.0\AppListaClientes.dll
+C:\Users\usuario\source\repos\AppListaClientes\AppListaClientes\bin\Debug\netstandard2.0\ref\AppListaClientes.dll
+C:\Users\usuario\source\repos\AppListaClientes\AppListaClientes\bin\Debug\netstandard2.0\AppListaClientes.pdb
+C:\Users\usuario\source\repos\AppListaClientes\AppListaClientes\obj\Debug\netstandard2.0\AppListaClientes.csprojAssemblyReference.cache
+C:\Users\usuario\source\repos\AppListaClientes\AppListaClientes\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\usuario\source\repos\AppListaClientes\AppListaClientes\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\usuario\source\repos\AppListaClientes\AppListaClientes\obj\Debug\netstandard2.0\AppListaClientes.AssemblyInfoInputs.cache
+C:\Users\usuario\source\repos\AppListaClientes\AppListaClientes\obj\Debug\netstandard2.0\AppListaClientes.AssemblyInfo.cs
+C:\Users\usuario\source\repos\AppListaClientes\AppListaClientes\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\usuario\source\repos\AppListaClientes\AppListaClientes\obj\Debug\netstandard2.0\AppListaClientes.dll
+C:\Users\usuario\source\repos\AppListaClientes\AppListaClientes\obj\Debug\netstandard2.0\ref\AppListaClientes.dll
+C:\Users\usuario\source\repos\AppListaClientes\AppListaClientes\obj\Debug\netstandard2.0\AppListaClientes.pdb
