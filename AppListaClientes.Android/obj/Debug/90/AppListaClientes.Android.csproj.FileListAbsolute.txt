@@ -471,3 +471,14 @@ C:\Users\usuario\source\repos\AppListaClientes\AppListaClientes.Android\obj\Debu
 C:\Users\usuario\source\repos\AppListaClientes\AppListaClientes.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\usuario\source\repos\AppListaClientes\AppListaClientes.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\usuario\source\repos\AppListaClientes\AppListaClientes.Android\obj\Debug\90\stamp\SetupDependenciesForDesigner.stamp
+C:\Users\Fabrícia\dev\app-clientes-xamarin\AppListaClientes.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+C:\Users\Fabrícia\dev\app-clientes-xamarin\AppListaClientes.Android\obj\Debug\90\build.props
+C:\Users\Fabrícia\dev\app-clientes-xamarin\AppListaClientes.Android\obj\Debug\90\adb.props
+C:\Users\Fabrícia\dev\app-clientes-xamarin\AppListaClientes.Android\obj\Debug\90\AppListaClientes.Android.csprojAssemblyReference.cache
+C:\Users\Fabrícia\dev\app-clientes-xamarin\AppListaClientes.Android\obj\Debug\90\_VerifyXamarinAndroidSupportVersions.stamp
+C:\Users\Fabrícia\dev\app-clientes-xamarin\AppListaClientes.Android\obj\Debug\90\stamp\_BuildLibraryImportsCache.stamp
+C:\Users\Fabrícia\dev\app-clientes-xamarin\AppListaClientes.Android\obj\Debug\90\resourcepaths.cache
+C:\Users\Fabrícia\dev\app-clientes-xamarin\AppListaClientes.Android\obj\Debug\90\resourcecache.stamp
+C:\Users\Fabrícia\dev\app-clientes-xamarin\AppListaClientes.Android\obj\Debug\90\res.flag
+C:\Users\Fabrícia\dev\app-clientes-xamarin\AppListaClientes.Android\obj\Debug\90\AppListaClientes.Android.dll
+C:\Users\Fabrícia\dev\app-clientes-xamarin\AppListaClientes.Android\obj\Debug\90\AppListaClientes.Android.pdb

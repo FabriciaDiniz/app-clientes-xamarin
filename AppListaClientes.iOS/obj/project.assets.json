@@ -1016,24 +1016,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\usuario\\.nuget\\packages\\": {},
+    "C:\\Users\\fabricia.DESKTOP-8APFH08\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\usuario\\source\\repos\\AppListaClientes\\AppListaClientes.iOS\\AppListaClientes.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\fabricia.DESKTOP-8APFH08\\dev\\app-clientes-xamarin\\AppListaClientes.iOS\\AppListaClientes.iOS.csproj",
       "projectName": "AppListaClientes.iOS",
-      "projectPath": "C:\\Users\\usuario\\source\\repos\\AppListaClientes\\AppListaClientes.iOS\\AppListaClientes.iOS.csproj",
-      "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\usuario\\source\\repos\\AppListaClientes\\AppListaClientes.iOS\\obj\\",
+      "projectPath": "C:\\Users\\fabricia.DESKTOP-8APFH08\\dev\\app-clientes-xamarin\\AppListaClientes.iOS\\AppListaClientes.iOS.csproj",
+      "packagesPath": "C:\\Users\\fabricia.DESKTOP-8APFH08\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fabricia.DESKTOP-8APFH08\\dev\\app-clientes-xamarin\\AppListaClientes.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fabricia.DESKTOP-8APFH08\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1047,8 +1047,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\usuario\\source\\repos\\AppListaClientes\\AppListaClientes\\AppListaClientes.csproj": {
-              "projectPath": "C:\\Users\\usuario\\source\\repos\\AppListaClientes\\AppListaClientes\\AppListaClientes.csproj"
+            "C:\\Users\\fabricia.DESKTOP-8APFH08\\dev\\app-clientes-xamarin\\AppListaClientes\\AppListaClientes.csproj": {
+              "projectPath": "C:\\Users\\fabricia.DESKTOP-8APFH08\\dev\\app-clientes-xamarin\\AppListaClientes\\AppListaClientes.csproj"
             }
           }
         }
