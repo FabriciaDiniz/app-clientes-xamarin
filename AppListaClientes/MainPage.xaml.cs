@@ -38,5 +38,13 @@ namespace AppListaClientes
             this.BindingContext = this;
             
         }
+
+        private void listViewClientes_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            var cliente = (Cliente)e.Item;
+
+            DisplayAlert("Lista Clientes", string.Format("Você selecionou o cliente {0}", 
+                cliente.Nome), "Ok");
+        }
     }
 }

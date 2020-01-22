@@ -6,22 +6,17 @@
              mc:Ignorable="d"
              x:Class="AppListaClientes.MainPage">
 
-    <ListView x:Name="listViewClientes" ItemsSource="{Binding Clientes}">
+    <ListView x:Name="listViewClientes" ItemsSource="{Binding Clientes}" Margin="25"
+              ItemTapped="listViewClientes_ItemTapped">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
                     <ViewCell.View>
-                        <Label>
-                            <Label.FormattedText>
-                                <FormattedString>
-                                    <FormattedString.Spans>
-                                        <Span Text="{Binding Nome}" FontSize="Large"></Span>
-                                        <Span Text="  -  "></Span>
-                                        <Span Text="{Binding Email}" FontSize="Medium"> </Span>
-                                    </FormattedString.Spans>
-                                </FormattedString>
-                            </Label.FormattedText>
-                        </Label>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding Nome}" FontSize="Large" VerticalTextAlignment="Center"></Label>
+                            <Label Text="  -  " VerticalTextAlignment="Center"></Label>
+                            <Label Text="{Binding Email}" FontSize="Medium" VerticalTextAlignment="Center"></Label>
+                        </StackLayout>
                     </ViewCell.View>
                 </ViewCell>
             </DataTemplate>
