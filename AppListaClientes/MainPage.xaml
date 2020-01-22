@@ -11,7 +11,17 @@
             <DataTemplate>
                 <ViewCell>
                     <ViewCell.View>
-                        <Label Text="{Binding Nome}"></Label>
+                        <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <FormattedString.Spans>
+                                        <Span Text="{Binding Nome}" FontSize="Large"></Span>
+                                        <Span Text="  -  "></Span>
+                                        <Span Text="{Binding Email}" FontSize="Medium"> </Span>
+                                    </FormattedString.Spans>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
                     </ViewCell.View>
                 </ViewCell>
             </DataTemplate>
