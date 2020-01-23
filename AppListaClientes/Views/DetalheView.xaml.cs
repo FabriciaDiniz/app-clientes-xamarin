@@ -12,15 +12,13 @@ namespace AppListaClientes.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class DetalheView : ContentPage
     {
-        public List<Cliente> Cliente { get; set; }
+        public Cliente Cliente { get; set; }
         public DetalheView(Cliente cliente)
         {
             InitializeComponent();
 
-            //estou ciente que isso é uma má prática, mas não sei como fazer direito ainda
-            this.Cliente = new List<Cliente>();
             this.Title = "Detalhes Cliente";
-            this.Cliente.Add(cliente);
+            this.Cliente = cliente;
 
             this.BindingContext = this;
         }

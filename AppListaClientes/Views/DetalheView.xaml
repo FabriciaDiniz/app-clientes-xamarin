@@ -5,21 +5,17 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="AppListaClientes.Views.DetalheView">
-   
-    <ListView x:Name="detalheView" ItemsSource="{Binding Cliente}" Margin="15">
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <ViewCell>
-                    <ViewCell.View>
-                        <StackLayout Orientation="Vertical">
-                            <Label Text="{Binding Nome}"></Label>
-                            <Label Text="{Binding Email}"></Label>
-                        </StackLayout>
-                    </ViewCell.View>
-                </ViewCell>
-            </DataTemplate>
-        </ListView.ItemTemplate>
-    </ListView>
+
+    <StackLayout>
+        <TableView Intent="Data">
+            <TableRoot>
+                <TableSection>
+                    <TextCell Text="{Binding Path=Cliente.Nome}"></TextCell>
+                    <TextCell Text="{Binding Path=Cliente.Email}"></TextCell>
+                </TableSection>
+            </TableRoot>
+        </TableView>
+    </StackLayout>
 
 </ContentPage>
 
