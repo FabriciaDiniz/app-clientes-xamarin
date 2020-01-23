@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppListaClientes.Views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace AppListaClientes
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new ListagemView());
         }
 
         protected override void OnStart()

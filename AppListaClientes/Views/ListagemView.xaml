@@ -4,10 +4,11 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="AppListaClientes.MainPage">
+             Title="Lista de Clientes"
+             x:Class="AppListaClientes.Views.ListagemView">
 
-    <ListView x:Name="listViewClientes" ItemsSource="{Binding Clientes}" Margin="25"
-              ItemTapped="listViewClientes_ItemTapped">
+    <ListView x:Name="listViewClientes" ItemsSource="{Binding Clientes}" Margin="15"
+              ItemTapped="ListViewClientes_ItemTapped">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>

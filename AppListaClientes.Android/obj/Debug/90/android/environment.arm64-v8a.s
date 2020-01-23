@@ -3,8 +3,8 @@
 	.section	.rodata..L.str.1,"aMS",@progbits,1
 	.type	.L.str.1, @object
 .L.str.1:
-	.asciz	"com.companyname.applistaclientes"
-	.size	.L.str.1, 33
+	.asciz	"com.fabriciadiniz.applistaclientes"
+	.size	.L.str.1, 35
 	.section	.data.application_config,"aw",@progbits
 	.type	application_config, @object
 	.p2align	3
@@ -63,7 +63,7 @@ mono_aot_mode_name:
 	.section	.rodata..L.str.8,"aMS",@progbits,1
 	.type	.L.str.8, @object
 .L.str.8:
-	.asciz	"e3fb8d36-de71-4ec9-baf2-cdd8b0db6d50"
+	.asciz	"045be6a4-fa10-4d85-a78d-88dd1031bf6e"
 	.size	.L.str.8, 37
 	.section	.rodata..L.str.9,"aMS",@progbits,1
 	.type	.L.str.9, @object

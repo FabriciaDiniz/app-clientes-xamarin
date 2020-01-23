@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace AppListaClientes
+namespace AppListaClientes.Views
 {
     // Learn more about making custom code visible in the Xamarin.Forms previewer
     // by visiting https://aka.ms/xamarinforms-previewer
@@ -18,11 +18,12 @@ namespace AppListaClientes
         public string Email { get; set; }
 
     }
-    public partial class MainPage : ContentPage
+    public partial class ListagemView : ContentPage
     {
 
         public List<Cliente> Clientes { get; set; }
-        public MainPage()
+
+        public ListagemView()
         {
             InitializeComponent();
 
@@ -39,12 +40,11 @@ namespace AppListaClientes
             
         }
 
-        private void listViewClientes_ItemTapped(object sender, ItemTappedEventArgs e)
+        private void ListViewClientes_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             var cliente = (Cliente)e.Item;
 
-            DisplayAlert("Lista Clientes", string.Format("Você selecionou o cliente {0}", 
-                cliente.Nome), "Ok");
+            Navigation.PushAsync(new DetalheView(cliente));
         }
     }
 }
