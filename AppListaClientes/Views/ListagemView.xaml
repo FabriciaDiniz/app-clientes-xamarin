@@ -7,21 +7,25 @@
              Title="Lista de Clientes"
              x:Class="AppListaClientes.Views.ListagemView">
 
-    <ListView x:Name="listViewClientes" ItemsSource="{Binding Clientes}" Margin="15"
+    <StackLayout>
+        <ListView x:Name="listViewClientes" ItemsSource="{Binding Clientes}" Margin="15"
               ItemTapped="ListViewClientes_ItemTapped">
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <ViewCell>
-                    <ViewCell.View>
-                        <StackLayout Orientation="Horizontal">
-                            <Label Text="{Binding Nome}" FontSize="Large" VerticalTextAlignment="Center"></Label>
-                            <Label Text="  -  " VerticalTextAlignment="Center"></Label>
-                            <Label Text="{Binding Email}" FontSize="Medium" VerticalTextAlignment="Center"></Label>
-                        </StackLayout>
-                    </ViewCell.View>
-                </ViewCell>
-            </DataTemplate>
-        </ListView.ItemTemplate>
-    </ListView>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding Nome}" FontSize="Large" VerticalTextAlignment="Center"></Label>
+                                <Label Text="  -  " VerticalTextAlignment="Center"></Label>
+                                <Label Text="{Binding Email}" FontSize="Medium" VerticalTextAlignment="Center"></Label>
+                            </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="Cadastrar" Clicked="Button_Clicked"></Button>
+    </StackLayout>
+    
 
 </ContentPage>
