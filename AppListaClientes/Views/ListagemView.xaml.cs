@@ -46,8 +46,9 @@ namespace AppListaClientes.Views
             Navigation.PushAsync(new DetalheView(cliente));
         }
 
-        private void Button_Clicked(object sender, EventArgs e) => DisplayAlert("Atenção", "Você tentou cadastrar um novo cliente", "OK");
-        // abrir nova activity com um formulário de cadastro e inserir o serumano cadastrado na lista
-
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new CadastroView());
+        }
     }
 }

@@ -12,3 +12,4 @@ C:\Users\fabricia.DESKTOP-8APFH08\dev\app-clientes-xamarin\AppListaClientes\obj\
 C:\Users\fabricia.DESKTOP-8APFH08\dev\app-clientes-xamarin\AppListaClientes\obj\Debug\netstandard2.0\AppListaClientes.csprojAssemblyReference.cache
 C:\Users\fabricia.DESKTOP-8APFH08\dev\app-clientes-xamarin\AppListaClientes\obj\Debug\netstandard2.0\Views\ListagemView.xaml.g.cs
 C:\Users\fabricia.DESKTOP-8APFH08\dev\app-clientes-xamarin\AppListaClientes\obj\Debug\netstandard2.0\Views\DetalheView.xaml.g.cs
+C:\Users\fabricia.DESKTOP-8APFH08\dev\app-clientes-xamarin\AppListaClientes\obj\Debug\netstandard2.0\Views\CadastroView.xaml.g.cs
