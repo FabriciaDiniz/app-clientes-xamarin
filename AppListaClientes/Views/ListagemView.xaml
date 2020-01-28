@@ -3,10 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:AppListaClientes.ViewModels"
              mc:Ignorable="d"
              Title="Lista de Clientes"
              x:Class="AppListaClientes.Views.ListagemView">
-
+    <ContentPage.BindingContext>
+        <vm:ListagemViewModel></vm:ListagemViewModel>
+    </ContentPage.BindingContext>
     <StackLayout>
         <ListView x:Name="listViewClientes" ItemsSource="{Binding Clientes}" Margin="15"
               ItemTapped="ListViewClientes_ItemTapped">

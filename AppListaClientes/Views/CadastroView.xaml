@@ -5,13 +5,14 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="AppListaClientes.Views.CadastroView">
+    
     <ContentPage.Content>
         <StackLayout>
             <TableView>
                 <TableRoot>
                     <TableSection Title="Cadastro novo cliente">
-                        <EntryCell Label="Nome: " Keyboard="Text" Text="{Binding Nome}"></EntryCell>
-                        <EntryCell Label="Email: " Keyboard="Email" Text="{Binding Email}"></EntryCell>
+                        <EntryCell Label="Nome: " Keyboard="Text" Text="{Binding Path=Cliente.Nome}"></EntryCell>
+                        <EntryCell Label="Email: " Keyboard="Email" Text="{Binding Path=Cliente.Email}"></EntryCell>
                     </TableSection>
                 </TableRoot>
             </TableView>

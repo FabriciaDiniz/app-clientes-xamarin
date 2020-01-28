@@ -1,4 +1,6 @@
-﻿using System;
+﻿using AppListaClientes.Models;
+using AppListaClientes.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,22 +14,25 @@ namespace AppListaClientes.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CadastroView : ContentPage
     {
-        public string Nome { get; set; }
-        public string Email { get; set; }
+        public Cliente Cliente { get; set; }
 
         public CadastroView()
         {
             InitializeComponent();
-            this.BindingContext = this;
+            this.Cliente = new Cliente();
+            this.BindingContext = new CadastroViewModel();
         }
 
         private void Button_Clicked(object sender, EventArgs e)
         {
             // TODO: adicionar checagem se os campos não estão vazios
-            ListagemView lv = new ListagemView();
-            lv.Clientes.Add(new Cliente { Nome = Nome, Email = Email });
-            DisplayAlert("Cadastro", "Cadastro de " + Nome + " efetuado", "Ok");
-            Navigation.PushAsync(lv);
+            ListagemClientes listagem = new ListagemClientes();
+
+            // TODO: consertar isso pra ele conseguir pegar a ref de cliente
+            // TODO: adicionar try/catch aqui pro caso de dar algo errado na hora de adicionar
+            listagem.Clientes.Add(Cliente);
+            DisplayAlert("Cadastro", "Cadastro de " + Cliente.Nome + " efetuado", "Ok");
+            Navigation.PushAsync(new ListagemView());
         }
     }
 }
